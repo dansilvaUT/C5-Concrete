@@ -1,10 +1,9 @@
-import Nav from './Nav/Nav';
+import NavBar from './Nav/NavBar';
 
 const Header = () => {
     return (
         <header>
-            heder test
-            <Nav />
+            <NavBar />
         </header>
     )
 }
