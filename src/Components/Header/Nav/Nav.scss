@@ -1,0 +1,13 @@
+@import '../../../base';
+
+.navbar-component {
+    background-color: $blue;
+    position: sticky;
+}
+
+.navbar-component {
+    .nav-item,
+    #brand-name {
+        color: white!important;
+    }
+}

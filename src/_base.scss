@@ -1,0 +1,14 @@
+$blue: #3264a8;
+$dark-grey: #28313d;
+
+//FLEX
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
