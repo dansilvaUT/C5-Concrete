@@ -17,24 +17,12 @@ const About = () => {
                 pancetta ball tip corned beef. Kielbasa cow meatloaf,
                 sirloin alcatra capicola burgdoggen turkey. Cow pig frankfurter
                        kielbasa turkey.</p>
-                       <img src={logo}/>
                 <Carousel>
-
-                        {cArr.map(p => (
-                            <Carousel.Item interval={1000}>
-                                <img src={p.url} alt={p.alt}/>
-                            </Carousel.Item>
-                        ))}
-                        {/* <img
-                            className="d-block w-100"
-                            src=""
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption> */}
-                    
+                    {cArr.map((p, i) => (
+                        <Carousel.Item interval={1000} key={i}>
+                            <img src={p.url} />
+                        </Carousel.Item>
+                    ))}
                 </Carousel>
             </Container>
         </Container>
