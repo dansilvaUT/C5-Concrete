@@ -1,0 +1,15 @@
+@import '../../base';
+
+.carousel-about {
+    height: 500px;
+    width: 500px;
+}
+
+.carousel-img {
+    height: 500px;
+    width: 100%;
+}
+
+.list-services {
+    @include flex-center;
+}

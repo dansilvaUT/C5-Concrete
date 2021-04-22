@@ -1,7 +1,9 @@
+import './Footer.scss';
+
 const Footer = () => {
     return (
-        <footer>
-            <p>Copywrite Daniel Silva</p>
+        <footer className="footer">
+            <p>&copy; Daniel Silva | C5</p>
         </footer>
     )
 }

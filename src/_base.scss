@@ -9,6 +9,17 @@ $dark-grey: #28313d;
     align-items: center;
 }
 
+@mixin flex-center-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .link {
     text-decoration: none;
+}
+
+.heading {
+    text-align: center;
 }
