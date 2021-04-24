@@ -3,8 +3,8 @@ import Heading from '../Fillers/Headings/Heading';
 
 const Work = () => {
     return (
-        <Container>
-            <Heading text='See Our Work'/>
+        <Container className="component-container">
+            <Heading classname="heading" text='See Our Work'/>
         </Container>
     )
 }

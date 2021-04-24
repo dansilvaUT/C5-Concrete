@@ -1,3 +1,5 @@
+@import '../../base';
+
 .jumbotron-about {
     background: rgb(0, 29, 126) url('../../assets/landing.jpeg');
     background-repeat:  no-repeat;
@@ -5,4 +7,13 @@
     background-size: auto;
     height: 80vh;
     object-fit: contain;
+    @include flex-center;
+}
+
+.top-header {
+    font-size: 5rem;
+}
+
+.bottom-header {
+    font-size: 3rem;
 }

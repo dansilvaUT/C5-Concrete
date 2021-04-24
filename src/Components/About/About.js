@@ -10,8 +10,8 @@ import './About.scss';
 
 const About = () => {
     return (
-        <Container>
-            <Heading text='Who We Are' />
+        <Container className="component-container">
+            <Heading classname="heading" text='Who We Are' />
             <Container>
                 <Row>
                     <Col>
@@ -30,7 +30,7 @@ const About = () => {
                     <Col className="list-services">
                         <List />
                     </Col>
-                    <Col>
+                    <Col className="carousel-col">
                         <Carousel className="carousel-about" fade>
                             {cArr.map((p, i) => (
                                 <Carousel.Item interval={1200} key={i}>

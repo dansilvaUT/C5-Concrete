@@ -4,8 +4,8 @@ import ContactForm from './ContactForm/ContactForm';
 
 const Contact = () => {
     return (
-        <Container>
-            <Heading text='Contact Us For Work' />
+        <Container className="component-container">
+            <Heading classname="heading" text='Contact Us For Work' />
             <ContactForm />
         </Container>
     )
