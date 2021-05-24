@@ -9,9 +9,30 @@
     .nav-item,
     #brand-name {
         color: white!important;
+        font-weight: bold;
+        margin: 3px;
     }
 }
 
-.toggle-button {
-    border-color: white;
+.navbar-light,
+ .navbar-toggler {
+     border-color:rgb(202, 200, 200)!important;
+ }
+
+.nav-item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
 }
+
+.nav-item:hover:after {
+    width: 100%;
+    background: white;
+  }
+
+  //TODO
+  //ADD MEDIA QUERY FOR BORDER REMOVAL ON RESPONSIVE
