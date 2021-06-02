@@ -1,8 +1,8 @@
 import Button from 'react-bootstrap/Button';
 
-const ButtonComp = ({ text, func }) => {
+const ButtonComp = ({ classname, text, func }) => {
     return (
-        <Button variant="primary" onClick={func}>{text}</Button>
+        <Button className={classname} variant="primary" onClick={func}>{text}</Button>
     )
 }
 

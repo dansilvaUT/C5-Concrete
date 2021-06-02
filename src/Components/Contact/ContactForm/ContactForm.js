@@ -14,7 +14,7 @@ const ContactForm = () => {
             <Form.Group >
                 <Form.Control as="textarea" rows={3} placeholder="What can we help you with?"/>
             </Form.Group>
-            <ButtonComp text='Send' />
+            <ButtonComp text='Send' classname="submit-message-btn" />
         </Form>
     )
 }
