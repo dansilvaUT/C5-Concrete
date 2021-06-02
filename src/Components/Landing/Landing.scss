@@ -1,17 +1,36 @@
 @import '../../base';
 
 .jumbotron-about {
+    height: 80vh;
+    @include flex-center;
+}
+
+.jumbotron-about::before {
+    content: "";
     background: rgb(0, 29, 126) url('../../assets/landing.jpeg');
     background-repeat:  no-repeat;
     background-position: center;
     background-size: auto;
-    height: 80vh;
+    position: absolute;
     object-fit: contain;
-    @include flex-center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .5;
+}
+
+.warehouse-icon,
+.top-header {
+    position: relative;
+}
+
+.warehouse-icon {
+    font-size: 4em;
 }
 
 .top-header {
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .bottom-header {

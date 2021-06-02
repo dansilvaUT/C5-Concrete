@@ -1,5 +1,13 @@
 @import '../../base';
 
+.about-container {
+    margin-top: 150px!important;
+}
+
+.about-heading {
+    font-size: 4rem;
+}
+
 .carousel-about {
     height: 500px;
     width: 500px;
@@ -8,6 +16,10 @@
 .carousel-img {
     height: 500px;
     width: 100%;
+}
+
+#about-text {
+    font-size: 2rem;
 }
 
 .list-services,

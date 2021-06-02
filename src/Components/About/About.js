@@ -10,12 +10,12 @@ import './About.scss';
 
 const About = () => {
     return (
-        <Container className="component-container">
-            <Heading classname="heading" text='Who We Are' />
+        <Container className="component-container about-container">
+            <Heading classname="heading about-heading" text='Who We Are' />
             <Container>
                 <Row>
                     <Col>
-                        <p>Bacon ipsum dolor amet fatback alcatra short ribs,
+                        <p id="about-text">Bacon ipsum dolor amet fatback alcatra short ribs,
                         shankle boudin pork bacon bresaola. Capicola bacon pork
                         loin, turducken short loin pork chop corned beef frankfurter.
                         Spare ribs turducken bacon alcatra frankfurter buffalo,

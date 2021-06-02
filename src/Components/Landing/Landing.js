@@ -8,9 +8,8 @@ const Landing = () => {
   return (
     <>
       <Container fluid className="jumbotron-about" >
-        <Heading classname="heading top-header" text='C5' />
-        <FontAwesomeIcon icon={faWarehouse} />
-        <Heading classname="heading bottom-header" text='Concrete' />
+        <Heading classname="heading top-header" text='C5 Concrete' />
+        <FontAwesomeIcon className="warehouse-icon" icon={faWarehouse} />
       </Container>
     </>
 

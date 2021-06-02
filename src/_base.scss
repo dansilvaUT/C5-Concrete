@@ -1,5 +1,10 @@
 $blue: #3264a8;
 $dark-grey: #28313d;
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+
+body {
+    font-family: 'Padauk', sans-serif!important;
+}
 
 //FLEX
 @mixin flex-center {
