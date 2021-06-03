@@ -23,6 +23,7 @@
 .warehouse-icon,
 .top-header {
     position: relative;
+    animation-name: fadeInBottom;
 }
 
 .warehouse-icon {
@@ -35,6 +36,14 @@
 
 .bottom-header {
     font-size: 3rem;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
 }
 
 @media (max-width: 390px){

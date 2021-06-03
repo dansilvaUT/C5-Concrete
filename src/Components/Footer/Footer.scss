@@ -6,8 +6,23 @@
     margin-top: 20px;
     color: white;
     text-align: center;
+    @include flex-row;
+    font-size: 1.5em;
 
     p {
         margin: 0;
+    }
+
+    .facebook-icon {
+        margin-left: 10px;
+    }
+
+    .facebook-link {
+        color: white;
+    }
+
+    #phone {
+        font-size: 20px;
+        margin-left: 5px;
     }
 }

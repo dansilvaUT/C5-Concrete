@@ -21,6 +21,14 @@ body {
     align-items: center;
 }
 
+@mixin flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
 .component-container {
     margin: 100px 0;
 }
