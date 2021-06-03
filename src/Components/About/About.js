@@ -26,19 +26,19 @@ const About = () => {
                        kielbasa turkey.</p>
                     </Col>
                 </Row>
+            </Container>
+            <Container>
                 <Row>
                     <Col className="list-services">
                         <List />
                     </Col>
-                    <Col className="carousel-col">
-                        <Carousel className="carousel-about" fade>
-                            {cArr.map((p, i) => (
-                                <Carousel.Item interval={1200} key={i}>
-                                    <Image className="carousel-img" src={p.url} alt={p.alt} rounded />
-                                </Carousel.Item>
-                            ))}
-                        </Carousel>
-                    </Col>
+                    <Carousel className="carousel-about" fade>
+                        {cArr.map((p, i) => (
+                            <Carousel.Item interval={1200} key={i}>
+                                <Image className="carousel-img" src={p.url} alt={p.alt} rounded />
+                            </Carousel.Item>
+                        ))}
+                    </Carousel>
                 </Row>
             </Container>
         </Container>
