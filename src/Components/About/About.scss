@@ -1,7 +1,7 @@
 @import '../../base';
 
 .about-container {
-    margin-top: 150px!important;
+    margin-top: 100px!important;
 }
 
 .about-heading {
@@ -26,3 +26,4 @@
 .carousel-col {
     @include flex-center;
 }
+

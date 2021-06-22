@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Heading from '../Fillers/Headings/Heading';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWarehouse } from '@fortawesome/free-solid-svg-icons';
+import logo from '../../assets/c5_logo.jpeg'
 import './Landing.scss';
 
 const Landing = () => {
@@ -9,7 +9,7 @@ const Landing = () => {
     <>
       <Container fluid className="jumbotron-about" >
         <Heading classname="heading top-header" text='C5 Concrete' />
-        <FontAwesomeIcon className="warehouse-icon" icon={faWarehouse} />
+        <Image className="logo-img" src={logo} roundedCircle />
       </Container>
     </>
 

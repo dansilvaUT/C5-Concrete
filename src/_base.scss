@@ -4,6 +4,8 @@ $dark-grey: #28313d;
 
 body {
     font-family: 'Padauk', sans-serif!important;
+    color: white!important;
+    background-color: rgb(27, 22, 22)!important;
 }
 
 //FLEX
@@ -39,4 +41,17 @@ body {
 
 .heading {
     text-align: center;
+}
+
+
+@media (max-width: 580px){
+    .heading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 480px){
+    .heading {
+        font-size: 3rem;
+    }
 }

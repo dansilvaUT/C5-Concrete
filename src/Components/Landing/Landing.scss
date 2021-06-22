@@ -1,7 +1,7 @@
 @import '../../base';
 
 .jumbotron-about {
-    height: 80vh;
+    height: 100vh;
     @include flex-center;
 }
 
@@ -10,27 +10,31 @@
     background: rgb(0, 29, 126) url('../../assets/landing.jpeg');
     background-repeat:  no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     position: absolute;
     object-fit: contain;
+    background-attachment: fixed;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: .5;
+    opacity: .7;
 }
 
-.warehouse-icon,
+.logo-img {
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+
 .top-header {
     position: relative;
-    animation-name: fadeInBottom;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
 }
 
-.warehouse-icon {
-    font-size: 4em;
-}
-
-.top-header {
+.top-header,
+.logo-img {
     font-size: 6rem;
 }
 
@@ -38,13 +42,19 @@
     font-size: 3rem;
 }
 
-@keyframes fadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
+@keyframes fadeInUp {
+    from { 
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
     }
-    to { opacity: 1 }
-}
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
 
 @media (max-width: 390px){
     .top-header {
